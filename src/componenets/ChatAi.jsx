@@ -40,7 +40,8 @@ const ChatAi = () => {
       // console.log(apiResponseText);
       updateHistory(apiResponseText);
     } catch (error) {
-      console.log(error);
+      updateHistory(error.message, true);
+
     }
   };
   useEffect(() => {

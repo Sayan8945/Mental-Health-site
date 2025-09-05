@@ -15,8 +15,12 @@ const Home = () => {
       <h1 className="text-3xl md:text-5xl font-secondary font-bold mb-4 leading-snug">
         Start Your Journey to Mental Wellness
       </h1>
-      <p className="text-base md:text-lg mb-8">
-        sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+      <p className="font-pacifico font-light text-base md:text-lg mb-8">
+        <span className='text-2xl'>"S</span>oothe your soul with calm and care,<br />
+<span className='text-2xl'>T</span>ake each moment, breathe fresh air,<br />
+<span className='text-2xl'>A</span>ccept yourself, let healing begin,<br />
+<span className='text-2xl'>R</span>eflect within, find peace therein,<br />
+<span className='text-2xl'>T</span>ogether we rise, strong from within."
       </p>
       <button className="bg-primary text-white py-3 px-6 font-medium rounded-md hover:bg-primary/90">
         <a href="#login" className="flex gap-2 items-center justify-center">

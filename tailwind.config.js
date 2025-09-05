@@ -11,7 +11,9 @@ export default {
       },
       fontFamily: {
         'primary' : ["Poppins", "sans-serif"],
-        'secondary' : ["Syne", "sans-serif"]
+        'secondary' : ["Syne", "sans-serif"],
+        'pacifico' : ["Pacifico", "cursive"]
+
       },
       colors: {
         'heroBg' :  "#0e1122",

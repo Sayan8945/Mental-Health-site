@@ -11,7 +11,7 @@ const Services = () => {
       <div className="container pt-28 px-4 mx-auto ">
         <div className='text-center space-y-5'>
           <h2 className='text-4xl font-bold font-secondary text-heroBg'>What Can We Do Together</h2>
-          <p className='md:w-1/2 mx-auto'>dfg re erlhksgre gesrgcghcg jghjghjkjhkljl er ger gre gdrfgeraers g gd gd gs gds gdregterta ew4teawr few faew few ferw fera rfg</p>
+          <p className='md:w-1/2 mx-auto'>Life brings challenges, but you don’t have to face them alone. Together, we can work on strengthening relationships, improving communication, building resilience, and finding peace within.</p>
           {/* service category */}
           <Tabs>
             <TabList className="flex flex-wrap justify-evenly items-center md:gap-8 gap-4">
