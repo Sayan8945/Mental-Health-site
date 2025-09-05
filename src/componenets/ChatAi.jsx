@@ -78,7 +78,7 @@ const ChatAi = () => {
       </div>
 
       {/* chat body */}
-      <div ref={chatBodyRef} className="overflow-y-scroll scroll-thin flex flex-col gap-4 md:gap-5 h-[25rem] max-h-[60vh] px-4 md:px-6 py-4 md:py-6">
+      <div ref={chatBodyRef} className="overflow-y-scroll scroll-thin flex flex-col gap-4 md:gap-5 h-[16rem] sm:h-[18rem] md:h-[22rem] max-h-[60vh] px-4 md:px-6 py-4 md:py-6">
         {/* bot message */}
         <div className="message bot-message flex gap-2 md:gap-3">
           <svg
