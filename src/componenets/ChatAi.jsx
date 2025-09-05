@@ -53,7 +53,8 @@ const ChatAi = () => {
   return (
     <div>
     <button id="chatbot-toggler" onClick={() => setShowChatbot(!showChatbot)}>
-        <span className="material-symbols-rounded">mode_comment</span><span className="material-symbols-rounded">close</span>
+        <span className="material-symbols-rounded">mode_comment</span>
+        {/* <span className="material-symbols-rounded">close</span> */}
       </button>
     <div className={`${showChatbot ? "block" : "hidden"} fixed bottom-24 right-9  w-full max-w-xs md:max-w-md lg:max-w-lg mx-auto overflow-hidden bg-white rounded-xl md:rounded-2xl shadow-2xl`}>
       
