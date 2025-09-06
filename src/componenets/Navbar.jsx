@@ -65,7 +65,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className='navbar bg-heroBg text-white py-6 px-4 fixed top-0 left-0 tight-0 z-10 '>
+    <header className='navbar w-full bg-heroBg text-white py-6 px-4 fixed top-0 left-0 tight-0 z-10 '>
       <div className="container mx-aut0 flex justify-between items-center h-full">
         {/* {logo} */}
         <div>
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
         <div className='block md:hidden'>
           <button onClick={handleToggle} className={`text-white focus:outline-none ${isOpen ? "border border-white" : "" }`}>
-            <HiMenuAlt3 className='size-6'/>
+            <HiMenuAlt3 className='size-7'/>
           </button>
         </div>
       </div>
@@ -95,10 +95,10 @@ const Navbar = () => {
       {
         isOpen && (
           <nav className='absolute top-full left-0 w-full bg-heroBg z-20 md:hidden'>
-            <ul className='flex flex-col p-4 space-y-3'>
+            <ul className='flex flex-col px-4 space-y-3'>
               {navlinks.props.children}
             </ul>
-            <li className='py-2 px-2 list-none'>
+            <li className='py-4 pb-6 px-3 list-none'>
               <a href="#contact" className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded' 
               onClick={(e) => {e.preventDefault();
               handleCloseMenu();}
