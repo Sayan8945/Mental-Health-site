@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import thumbmnailImg1 from "../assets/video-thumbnail1.jpg";
 import thumbmnailImg2 from "../assets/video-thumbnail2.jpg";
+import thumbmnailImg3 from "../assets/video-thumbnail3.jpg";
+import thumbmnailImg4 from "../assets/video-thumbnail4.jpg";
 import { IoPlay } from "react-icons/io5";
 import { ImCross } from "react-icons/im";
 import { FaCircleArrowRight } from "react-icons/fa6";
@@ -20,12 +22,12 @@ const Resources = () => {
   };
 
   return (
-    <div className="bg-[#f7f8fc] pb-16 pt-20 md:px-28" id="resources">
+    <div className="bg-[#f7f8fc] pb-16 pt-20 md:px-28 my-10" id="resources">
       <div className="container mx-auto">
         {/* Both videos side by side */}
         <div className="grid md:grid-cols-2 gap-8">
           {/* -------- Video 1 -------- */}
-          <div className="bg-white rounded-lg shadow p-8 flex flex-col items-center">
+          <div className="bg-white rounded-lg shadow p-8 flex flex-col items-center my-2">
             <div className="w-4/5 relative mb-6">
               {!isVideoPlaying && (
                 <>
@@ -66,7 +68,7 @@ const Resources = () => {
           </div>
 
           {/* -------- Video 2 -------- */}
-          <div className="bg-white rounded-lg shadow p-8 flex flex-col items-center">
+          <div className="bg-white rounded-lg shadow p-8 flex flex-col items-center my-2">
             <div className="w-4/5 relative mb-6">
               {!isVideoPlaying && (
                 <>
@@ -96,6 +98,87 @@ const Resources = () => {
             <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
               <a
                 href="https://www.youtube.com/@BuddhismInEnglish"
+                className="flex gap-2 items-center justify-center"
+              >
+                <span>Visit Channel</span>
+                <FaCircleArrowRight />
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* -------- Video 3 -------- */}
+          <div className="bg-white rounded-lg shadow p-8 flex flex-col items-center my-2">
+            <div className="w-4/5 relative mb-6">
+              {!isVideoPlaying && (
+                <>
+                  <img
+                    src={thumbmnailImg3}
+                    alt=""
+                    className="w-full h-auto rounded-lg object-cover"
+                  />
+                  <button
+                    onClick={() =>
+                      handleOpenVideo(
+                        "https://www.youtube.com/embed/DulNz2CkoHI?si=PZ5rQj-OAxb0PtSK" 
+                      )
+                    }
+                    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary p-3 rounded-full shadow-lg cursor-pointer"
+                  >
+                    <IoPlay className="size-6 text-white" />
+                  </button>
+                </>
+              )}
+            </div>
+            <h2 className="text-xl md:text-2xl font-secondary font-bold mb-4 text-center">
+              Individual consult and therapy
+            </h2>
+            <p className="text-sm md:text-base mb-6 text-center">
+              sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh
+              rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+            </p>
+            <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
+              <a
+                href="https://www.youtube.com/@gurudev"
+                className="flex gap-2 items-center justify-center"
+              >
+                <span>Visit Channel</span>
+                <FaCircleArrowRight />
+              </a>
+            </button>
+          </div>
+
+          {/* -------- Video 4 -------- */}
+          <div className="bg-white rounded-lg shadow p-8 flex flex-col items-center my-2">
+            <div className="w-4/5 relative mb-6">
+              {!isVideoPlaying && (
+                <>
+                  <img
+                    src={thumbmnailImg4}
+                    alt=""
+                    className="w-full h-auto rounded-lg object-cover"
+                  />
+                  <button
+                    onClick={() =>
+                      handleOpenVideo("https://www.youtube.com/embed/sfSDQRdIvTc?si=w1AZOaG3-PQ-3OI7")
+                    }
+                    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary p-3 rounded-full shadow-lg cursor-pointer"
+                  >
+                    <IoPlay className="size-6 text-white" />
+                  </button>
+                </>
+              )}
+            </div>
+            <h3 className="text-xl md:text-2xl font-secondary font-bold mb-4 text-center">
+              Individual consult and therapy
+            </h3>
+            <p className="text-sm md:text-base mb-6 text-center">
+              sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh
+              rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+            </p>
+            <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
+              <a
+                href="https://www.youtube.com/@satvicyoga"
                 className="flex gap-2 items-center justify-center"
               >
                 <span>Visit Channel</span>

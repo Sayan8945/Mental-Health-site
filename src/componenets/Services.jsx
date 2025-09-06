@@ -65,7 +65,7 @@ const Services = () => {
                   <li>dasd dfs dsaf af afaw f aterg ergaedvx dsafref adstrg aereaw ferw</li>
                 </ul>
               </div>
-              <div className='md:w-1/2'>
+              <div className='md:w-1/2 '>
                 <img src={serviceImg3} alt="" className='w-full h-auto rounded-2xl object-cover md:h-[446px]'/>
               </div>
               </div>

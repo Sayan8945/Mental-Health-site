@@ -13,7 +13,7 @@ const ChatAi = () => {
     //helper function to update chat history
     const updateHistory = (text) => {
       setChatHistory((prev) => [
-        ...prev.filter((msg) => msg.text !== "Thinking..."),
+        ...prev.filter((msg) => msg.text !== " . . . . ."),
         { role: "model", text },
       ]);
     };
@@ -56,7 +56,7 @@ const ChatAi = () => {
         <span className="material-symbols-rounded">mode_comment</span>
         {/* <span className="material-symbols-rounded">close</span> */}
       </button>
-    <div className={`${showChatbot ? "block" : "hidden"} fixed bottom-24 right-9  w-full max-w-xs md:max-w-md lg:max-w-lg mx-auto overflow-hidden bg-white rounded-xl md:rounded-2xl shadow-2xl`}>
+    <div className={`${showChatbot ? "block" : "hidden"} fixed z-10 bottom-24 right-9  w-full max-w-xs md:max-w-md lg:max-w-lg mx-auto overflow-hidden bg-white rounded-xl md:rounded-2xl shadow-2xl`}>
       
       {/* header */}
       <div className="chatbot-popup bg-primary flex items-center justify-between px-4 md:px-6 py-3 md:py-4">

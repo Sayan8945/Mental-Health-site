@@ -12,7 +12,7 @@ const ChatForm = ({chatHistory, setChatHistory, generateBotResponse}) => {
     // update chat history with user's massage
     setChatHistory((history) => [...history, {role: "user", text: userMessage}]);
     // add placeholder for Bot's
-    setTimeout(() => {setChatHistory((history) => [...history, {role: "model", text: "Thinking..."}]);
+    setTimeout(() => {setChatHistory((history) => [...history, {role: "model", text: " . . . . ."}]);
      generateBotResponse([...chatHistory, {role: "user", text: userMessage}]);},600);
 
    

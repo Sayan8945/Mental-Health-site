@@ -3,7 +3,7 @@ import Navbar from './componenets/Navbar'
 import Resources from './componenets/Resources'
 import Home from './componenets/Home'
 import Services from './componenets/Services'
-import Testimonial from './componenets/Testimonial'
+import Quotes from './componenets/Quotes'
 import ChatAi from './componenets/ChatAi'
 import WorkingSteps from './componenets/WorkingSteps'
 
@@ -16,7 +16,7 @@ function App() {
       <Resources/>
       <WorkingSteps/>
       <ChatAi/>
-      <Testimonial/>
+      <Quotes/>
     </div>
   )
 }

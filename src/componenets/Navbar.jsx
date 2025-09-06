@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { HiMenuAlt3 } from "react-icons/hi";
 import "./Navbar.css"
 import { motion } from "motion/react"
+import logo  from "../assets/logo.png"
 
 
 const Navbar = () => {
@@ -41,7 +42,7 @@ const Navbar = () => {
         }} className={`text-white ${activeSection === 'about' ? 'isActive' : ''}`}>About</motion.a>
       </li><li>
         <motion.a href="#testimonial" whileHover = {{scale: 1.1}} whileTap={{scale: 0.9}} onClick={(e) => {e.preventDefault(); handleCloseMenu(); handleScrollTo('testimonial')
-        }}  className={`text-white ${activeSection === 'testimonial' ? 'isActive' : ''}`}>Testimonial</motion.a>
+        }}  className={`text-white ${activeSection === 'testimonial' ? 'isActive' : ''}`}>Inspiration</motion.a>
       </li>
     </ul>
   )
@@ -65,14 +66,14 @@ const Navbar = () => {
   }
 
   return (
-    <header className='navbar w-full bg-heroBg text-white py-6 px-4 fixed top-0 left-0 tight-0 z-10 '>
+    <header className='navbar w-full bg-heroBg text-white py-4 px-4 fixed top-0 left-0 tight-0 z-10 '>
       <div className="container mx-aut0 flex justify-between items-center h-full">
         {/* {logo} */}
-        <div>
+        <div className='flex flex-row justify-center items-center'>
           <a href="">
-            {/* <img src="/logo.svg" alt="" /> */}
-            <p>Logo</p>
+            <img src="/logo.png" alt="" className='md:h-12 md:w-18 h-10 w-12'/>
           </a>
+          <span className='font-apple text-primary font-bold text-xl pt-4 px-2'>MediBloom</span>
         </div>
         {/* {nav items} */}
         <div>
