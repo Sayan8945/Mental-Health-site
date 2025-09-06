@@ -18,7 +18,7 @@ const Quotes = () => {
           <h2 className="text-4xl font-bold font-secondary mb-3">
             Fuel for Your Mind
           </h2>
-          <p className="text-lg mb-12 md:w-1/2 mx-auto">
+          <p className="text-sm md:text-lg mb-12 md:w-1/2 mx-auto">
             dsf sdf er gre gers grtsd gersyysrt54 eyasryer te3ra ygeyersa tyer
             tera tera te gers grtsd gersyysrt54 eyasryer te3ra ygeyersa tyer
             tera tera t
