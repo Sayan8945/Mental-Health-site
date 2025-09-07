@@ -13,9 +13,9 @@ const Quotes = () => {
 
   return (
     <div id="testimonial" className="bg-[#f7f8fc] py-12">
-      <div className="container mx-auto">
+      <div className="container mx-auto pb-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold font-secondary mb-3">
+          <h2 className="text-4xl font-bold font-title font- mb-3">
             Fuel for Your Mind
           </h2>
           <p className="text-sm md:text-lg mb-12 md:w-1/2 mx-auto">

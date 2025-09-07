@@ -12,7 +12,7 @@ const Home = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-8 py-3 gap-12">
         {/* Left Side */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-3xl md:text-5xl font-secondary font-bold mb-4 leading-snug">
+          <h1 className="text-3xl md:text-5xl font-title font-bold mb-4 leading-snug">
             Start Your Journey to Mental Wellness
           </h1>
           <p className="font-pacifico font-light text-base md:text-lg mb-8">

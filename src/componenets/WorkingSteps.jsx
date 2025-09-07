@@ -6,7 +6,7 @@ const WorkingSteps = () => {
       <div className="absolute inset-0 bg-heroBg bg-opacity-90"></div>
       <div className="relative container mx-auto px-4 py-20">
         <div className="text-white text-center mb-20">
-          <h2 className="text-4xl font-bold font-secondary mb-4">How We Work</h2>
+          <h2 className="text-4xl font-bold font-title mb-4">How We Work</h2>
           <p className="text-lg md:w-1/2 w-full mx-auto">
             dsf hdf afkewhfkh eawh heafhewafh awh ewf rew fla fsek fbsd fbsdf
             bawkfbwea fbewa fbewab fekwb feaw bfeaw bfeawb fkjbweaf kbaewk

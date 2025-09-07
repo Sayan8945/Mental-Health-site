@@ -11,7 +11,8 @@ export default {
       },
       fontFamily: {
         'primary' : ["Poppins", "sans-serif"],
-        'secondary' : ["Syne", "sans-serif"],
+        'secondary' : ["Playfair Display", 'serif'],
+        'title' : ["Syne", "sans-serif"],
         'pacifico' : ["Pacifico", "cursive"],
         "apple" : ["Homemade Apple", "cursive"]
       },

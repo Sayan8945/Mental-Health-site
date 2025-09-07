@@ -4,13 +4,14 @@ import serviceImg1 from "../assets/service1.png";
 import serviceImg2 from "../assets/service2.png";
 import serviceImg3 from "../assets/service3.png";
 import serviceImg4 from "../assets/service4.png";
+import { TbCaretRightFilled } from "react-icons/tb";
 
 const Services = () => {
   return (
     <div id="services" className="bg-[#f7f8fc] md:px-32">
       <div className="container pt-28 px-4 mx-auto ">
         <div className="text-center space-y-5">
-          <h2 className="text-4xl font-bold font-secondary text-heroBg">
+          <h2 className="text-4xl font-bold font-title text-heroBg">
             What Can We Do Together
           </h2>
           <p className="md:w-1/2 mx-auto">
@@ -35,7 +36,7 @@ const Services = () => {
                   </h3>
                   <p className="mb-8">
                     Offers a safe space for partners to talk openly, improve
-                    understanding, and strengthen their bond.<br/> It helps in
+                    understanding, and strengthen<br/>  their bond.It helps in
                     resolving conflicts, enhancing communication, and building a
                     healthier, happier relationship together.
                   </p>
@@ -67,7 +68,7 @@ const Services = () => {
                   </h3>
                   <p className="mb-8">
                     Struggling to concentrate can feel frustrating and
-                    exhausting.<br/> Counseling can help uncover what’s affecting
+                    exhausting. Counseling <br/>can help uncover what’s affecting
                     your focus and guide you with tools to improve attention and
                     mental clarity.
                   </p>
@@ -91,13 +92,13 @@ const Services = () => {
             </TabPanel>
             <TabPanel>
               <div className="flex flex-col md:flex-row gap-8 mt-8">
-                <div className=" md-w-1/2 bg-white rounded-lg p-12 font-secondar">
+                <div className=" md-w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-2xl font-semibold text-primary mb-4">
                     Feeling Stuck
                   </h3>
                   <p className="mb-8">
                     At times, life may feel overwhelming or directionless,
-                    leaving you unsure of the next step.<br/> Counseling can help you
+                    leaving you unsure of the<br/> next step. Counseling can help you
                     gain clarity, build confidence, and move forward with
                     purpose.
                   </p>

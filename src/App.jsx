@@ -6,6 +6,7 @@ import Services from './componenets/Services'
 import Quotes from './componenets/Quotes'
 import ChatAi from './componenets/ChatAi'
 import WorkingSteps from './componenets/WorkingSteps'
+import Contact from './componenets/Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WorkingSteps/>
       <ChatAi/>
       <Quotes/>
+      <Contact/>
     </div>
   )
 }
