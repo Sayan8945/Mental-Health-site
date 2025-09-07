@@ -9,7 +9,7 @@ const Quotes = () => {
     return shuffled.slice(0, count);
   };
   let selectedQuotes = getRandomQuotes(quotes);
-  console.log(selectedQuotes);
+  // console.log(selectedQuotes);
 
   return (
     <div id="testimonial" className="bg-[#f7f8fc] py-12">
