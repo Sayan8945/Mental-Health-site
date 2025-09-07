@@ -4,7 +4,6 @@ import { FaEnvelope } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
-import { form } from "motion/react-client";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -114,39 +113,50 @@ const Contact = () => {
             <h3 className="text-2xl font-bold mb-4 text-heroBg">
               Book an Appointment
             </h3>
-            <form method="POST" action="https://api.emailjs.com/api/v1.0/email/send" onSubmit={handleSubmit} className="space-y-8">
+            <form  onSubmit={handleSubmit} className="space-y-8">
               <div className="flex sm:flex-row flex-col gap-4">
                 <input
                   type="text"
                   placeholder="Name"
+                  value={name}
                   className="w-full p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-primary shadow"
+                  required
                   onChange={(e) => setName(e.target.value)}
                 />
                 <input
                   type="email"
                   placeholder="Email Id"
+                  value={email}
                   className="w-full p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-primary shadow"
+                  required
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div className="flex sm:flex-row flex-col gap-4">
                 <input
-                  type="tel"
+                  type="number"
+                  minLength={10}
                   placeholder="Contact Number"
+                  value={phone}
                   className="w-full p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-primary shadow"
+                  required
                   onChange={(e) => setPhone(e.target.value)}
                 />
                 <input
                   type="text"
                   placeholder="Adress"
+                  value={adress}
                   className="w-full p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-primary shadow"
+                  required
                   onChange={(e) => setAdress(e.target.value)}
                 />
               </div>
               <textarea
                 rows={5}
                 placeholder="Write Your Massage..."
+                value={message}
                 className="w-full p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-primary shadow"
+                required
                   onChange={(e) => setMessage(e.target.value)}
               ></textarea>
               <button
