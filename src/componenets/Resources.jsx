@@ -39,7 +39,7 @@ const Resources = () => {
                   <button
                     onClick={() =>
                       handleOpenVideo(
-                        "https://www.youtube.com/embed/qzibcjz1iT0?si=uzwRyuTcM79UsUaw"
+                        "https://www.youtube.com/embed/5JCLyjw8Wtk?si=dDEraPPKBI3he1bG" 
                       )
                     }
                     className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary p-3 rounded-full shadow-lg cursor-pointer"
@@ -49,12 +49,11 @@ const Resources = () => {
                 </>
               )}
             </div>
-            <h2 className="text-xl md:text-2xl font-secondary font-bold mb-4 text-center">
-              Individual consult and therapy
+            <h2 className="text-xl md:text-xl font-title font-bold mb-4 text-center">
+              Defeat DEPRESSION and Live Your BEST LIFE
             </h2>
             <p className="text-sm md:text-base mb-6 text-center">
-              sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh
-              rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+              I'm Arghya Chakraborty, an assistant professor with a passion for knowledge and a thirst for discovery.
             </p>
             <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
               <a
@@ -88,12 +87,12 @@ const Resources = () => {
                 </>
               )}
             </div>
-            <h3 className="text-xl md:text-2xl font-secondary font-bold mb-4 text-center">
-              Individual consult and therapy
+            <h3 className="text-xl md:text-xl font-title font-bold mb-4 text-center">
+              How to stay focused in studies
             </h3>
             <p className="text-sm md:text-base mb-6 text-center">
-              sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh
-              rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+              Mahamevnawa Bodhignana Monastery,
+Hewagama, Kaduwela, Sri Lanka.
             </p>
             <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
               <a
@@ -130,12 +129,12 @@ const Resources = () => {
                 </>
               )}
             </div>
-            <h2 className="text-xl md:text-2xl font-secondary font-bold mb-4 text-center">
-              Individual consult and therapy
+            <h2 className="text-xl md:text-xl font-title font-bold mb-4 text-center">
+              Short Guided Meditation For Relaxation
             </h2>
             <p className="text-sm md:text-base mb-6 text-center">
-              sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh
-              rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+              Gurudev Sri Sri Ravi Shankar
+ is a humanitarian and spiritual leader, an ambassador of peace and human values.
             </p>
             <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
               <a
@@ -169,12 +168,11 @@ const Resources = () => {
                 </>
               )}
             </div>
-            <h3 className="text-xl md:text-2xl font-secondary font-bold mb-4 text-center">
-              Individual consult and therapy
+            <h3 className="text-xl md:text-xl font-title font-bold mb-4 text-center">
+              10 Min Meditation to Quiet Your Thoughts & Relax
             </h3>
             <p className="text-sm md:text-base mb-6 text-center">
-              sfaewhbfjfaew era kerl bheral sfjiog jerj gaerh er ghera fhewlfhh
-              rwh fr 34hq2rtbhlerkj berkl bterk btlekr...
+             practice this every day, early in the morning and right before going to sleep, for the best experience.
             </p>
             <button className="bg-primary text-white py-2 px-4 font-medium rounded-md hover:bg-primary/90">
               <a

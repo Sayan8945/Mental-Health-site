@@ -81,12 +81,12 @@ const Navbar = () => {
             {navlinks}
           </nav>
         </div>
-        <div className="hidden md:block">
+        <nav className="hidden md:block">
           <a onClick={e => {e.preventDefault();
               handleScrollTo('contact')}} href="#contact" className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded'>
             Contact Us
           </a>
-        </div>
+        </nav>
         <div className='block md:hidden'>
           <button onClick={handleToggle} className={`text-white focus:outline-none ${isOpen ? "border border-white" : "" }`}>
             <HiMenuAlt3 className='size-7'/>

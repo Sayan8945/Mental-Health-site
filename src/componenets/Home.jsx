@@ -2,6 +2,7 @@ import React from "react";
 // import homeImg from "../assets/homeimg1.png"
 import ImageSlider from "./ImageSlider";
 import { FaCircleArrowRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -31,11 +32,11 @@ const Home = () => {
             <span className="text-2xl">T</span>ogether we rise, strong from
             within."
           </p>
-          <button className="bg-primary text-white py-3 px-6 font-medium rounded-md hover:bg-primary/90">
-            <a href="#login" className="flex gap-2 items-center justify-center">
-              <span>Get Started</span>
+          <button  className="bg-primary text-white py-3 px-6 font-medium rounded-md hover:bg-primary/90">
+            <Link to="/login" className="flex gap-2 items-center justify-center">
+              Get Started
               <FaCircleArrowRight />
-            </a>
+            </Link>
           </button>
         </div>
 
