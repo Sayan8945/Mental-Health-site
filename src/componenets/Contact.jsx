@@ -15,6 +15,19 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const data = {
+    name,
+    email,
+    phone,
+    adress,
+    message,
+    };
+    if(!data) {
+      alert("please fill all fields")
+      return
+    }
+
+    setShowModel(true)
     const service_id = 'service_3vt23el';
     const template_id = 'template_k9xsgld';
     const user_id = "Iib2SGv8Ws7nKhjeq";
@@ -40,13 +53,7 @@ const Contact = () => {
       console.log("error sending email", err);
     })
 
-    const data = {
-      name,
-      email,
-      phone,
-      adress,
-      message,
-    };
+
   };
   return (
     <div
@@ -67,8 +74,8 @@ const Contact = () => {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium">24 hours service</h3>
-                  <p className="text-md">
-                    fsdf er fewf weaf ae far frae fr ffr r
+                  <p className="text-sm">
+                    We are available round the clock to assist you with bookings, emergencies, or queries.
                   </p>
                 </div>
               </div>
@@ -78,8 +85,8 @@ const Contact = () => {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium">Expert Therapist</h3>
-                  <p className="text-md">
-                    fsdf er fewf weaf ae far frae fr ffr r
+                  <p className="text-sm">
+                    Our team consists of certified and highly experienced therapists to provide the best care.
                   </p>
                 </div>
               </div>
@@ -89,8 +96,8 @@ const Contact = () => {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium">High Quality Core</h3>
-                  <p className="text-md">
-                    fsdf er fewf weaf ae far frae fr ffr r
+                  <p className="text-sm">
+                    We ensure top-quality medical services with personalized attention for every patient.
                   </p>
                 </div>
               </div>
@@ -100,8 +107,8 @@ const Contact = () => {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium">Trusted Clinic</h3>
-                  <p className="text-md">
-                    fsdf er fewf weaf ae far frae fr ffr r
+                  <p className="text-sm">
+                    Our clinic is recognized and trusted by thousands of satisfied patients across the region.
                   </p>
                 </div>
               </div>
@@ -169,6 +176,17 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {
+        showModel && (
+          <div className=" fixed inset-0 flex items-center justify-center bg-black">
+            <div className="bg-white p-8 rounded-md shadow-lg">
+              <h2 className="text-2xl font-bold mb-4">Thank you!</h2>
+              <p>Thank you, {name}, for submitting your query.</p>
+              <button className="mt-4 px-4 py-2 bg-primary text-white rounded-md" onClick={setShowModel(false)}>close</button>
+            </div>
+          </div>
+        )
+      }
     </div>
   );
 };
