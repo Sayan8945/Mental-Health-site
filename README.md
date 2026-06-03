@@ -2,7 +2,7 @@
 # mindleap-react-template 
 ![mindleap-react-template](/src/assets/github-cover.png)
 
-## How to run this project: hj
+## How to run this project: 
 
 ### For Frontend 
 Follow the below steps to run the project: 
